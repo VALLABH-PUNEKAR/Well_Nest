@@ -18,7 +18,7 @@ public class WorkoutPlanGeminiService {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${gemini.api.key:AIzaSyBfuD7DgKDW52tZIr-aFpRT201Re2LF65I}")
+    @Value("${gemini.api.key:AIzaSyAmBveWRRcgUhAze9e2wbfYq30jkapqVVc}")
     private String geminiApiKey;
 
     public String generateWorkoutPlan(WorkoutPlanRequest request) {
