@@ -19,7 +19,7 @@ public class HealthChatGeminiService {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
-    @Value("${gemini.api.key:AIzaSyBfuD7DgKDW52tZIr-aFpRT201Re2LF65I}")
+    @Value("${gemini.api.key:AIzaSyAmBveWRRcgUhAze9e2wbfYq30jkapqVVc}")
     private String apiKey;
 
     public String generateHealthChatResponse(HealthChatRequest request) {
