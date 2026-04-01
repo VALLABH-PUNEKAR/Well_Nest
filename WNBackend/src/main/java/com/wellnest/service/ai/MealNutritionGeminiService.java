@@ -20,7 +20,7 @@ public class MealNutritionGeminiService {
 
     private final RestTemplate restTemplate;
 
-    @Value("${gemini.api.key:AIzaSyAmBveWRRcgUhAze9e2wbfYq30jkapqVVc}")
+    @Value("${gemini.api.key:}")
     private String apiKey;
 
     public MealNutritionGeminiService(RestTemplate restTemplate) {
