@@ -21,7 +21,7 @@ public class GeminiService {
     private final RestTemplate restTemplate = new RestTemplate();
 
     // Inject the Gemini API key from application.properties, with default value if not provided
-    @Value("${gemini.api.key:AIzaSyAmBveWRRcgUhAze9e2wbfYq30jkapqVVc}")
+    @Value("${gemini.api.key:}")
     private String API_KEY;
     private final Random random = new Random();
 
